@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529E3CD12175DD1B003940C9 /* Opening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CD02175DD1B003940C9 /* Opening.swift */; };
 		52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE90252174887F0056AC24 /* AppDelegate.swift */; };
 		52BE90282174887F0056AC24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE90272174887F0056AC24 /* ViewController.swift */; };
 		52BE902B2174887F0056AC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE90292174887F0056AC24 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529E3CD02175DD1B003940C9 /* Opening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opening.swift; sourceTree = "<group>"; };
 		52BE90222174887F0056AC24 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BE90252174887F0056AC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BE90272174887F0056AC24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				52BE90252174887F0056AC24 /* AppDelegate.swift */,
 				52BE90272174887F0056AC24 /* ViewController.swift */,
 				52BE90292174887F0056AC24 /* Main.storyboard */,
+				529E3CD02175DD1B003940C9 /* Opening.swift */,
 				52BE902F2174887F0056AC24 /* Assets.xcassets */,
 				52BE90312174887F0056AC24 /* LaunchScreen.storyboard */,
 				52BE90342174887F0056AC24 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529E3CD12175DD1B003940C9 /* Opening.swift in Sources */,
 				52BE90282174887F0056AC24 /* ViewController.swift in Sources */,
 				52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */,
 				52BE902E2174887F0056AC24 /* Music.xcdatamodeld in Sources */,
