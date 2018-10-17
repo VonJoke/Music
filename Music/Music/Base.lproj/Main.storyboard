@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sfm-fa-cfm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gCJ-9c-NWi">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -58,6 +58,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="joZ-iE-2SW"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Learn" image="bookmark" id="kVa-Z3-Gms"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ers-dZ-X9g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,6 +74,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Bii-Va-uLY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Test" image="pencil" id="2sf-yg-0WU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cwJ-qv-1yD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,10 +90,31 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="R9t-Sw-Sfq"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Practice" image="musical_notes" id="Kgi-LF-bvf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ydg-XH-I6k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1742" y="856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="j1g-JL-4Ip">
+            <objects>
+                <tabBarController id="gCJ-9c-NWi" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZAF-YU-Fba">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3Ia-il-INp" kind="relationship" relationship="viewControllers" id="ZfH-Hh-07t"/>
+                        <segue destination="Clz-MJ-w3S" kind="relationship" relationship="viewControllers" id="OIb-Af-gR7"/>
+                        <segue destination="30n-Ni-vPZ" kind="relationship" relationship="viewControllers" id="7IH-EF-E6Y"/>
+                        <segue destination="vQd-9v-zxs" kind="relationship" relationship="viewControllers" id="APc-nL-vp2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IzE-J3-JwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1313" y="1791"/>
         </scene>
         <!--Progress-->
         <scene sceneID="owP-VJ-c9V">
@@ -103,6 +126,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aKg-yQ-tTK"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Progress" image="line_chart" id="9J7-z7-Dr7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uc-nV-QrJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -273,5 +297,9 @@
     <resources>
         <image name="Music home page" width="350" height="403"/>
         <image name="Music home page backwards" width="350" height="253"/>
+        <image name="bookmark" width="30" height="30"/>
+        <image name="line_chart" width="30" height="30"/>
+        <image name="musical_notes" width="30" height="30"/>
+        <image name="pencil" width="30" height="30"/>
     </resources>
 </document>
