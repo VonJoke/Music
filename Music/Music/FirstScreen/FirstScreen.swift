@@ -10,6 +10,9 @@ import UIKit
 
 class FirstScreen: UIViewController {
     
+    @IBAction func startButton(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
