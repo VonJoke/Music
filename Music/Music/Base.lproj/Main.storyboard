@@ -51,7 +51,7 @@
         <!--Learn-->
         <scene sceneID="gHI-u2-v92">
             <objects>
-                <viewController id="3Ia-il-INp" userLabel="Learn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LearnController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Ia-il-INp" userLabel="Learn" customClass="LearnController" customModule="Music" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n0i-Uu-eyE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

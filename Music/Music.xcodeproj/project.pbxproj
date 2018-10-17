@@ -17,6 +17,7 @@
 		52BE903E2174887F0056AC24 /* MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE903D2174887F0056AC24 /* MusicTests.swift */; };
 		52BE90492174887F0056AC24 /* MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE90482174887F0056AC24 /* MusicUITests.swift */; };
 		7B94178B21763ACC00BC23BD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94178A21763ACC00BC23BD /* Login.swift */; };
+		9CA1DF42217721B9005FF9F1 /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DF41217721B9005FF9F1 /* Learn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		52BE90482174887F0056AC24 /* MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUITests.swift; sourceTree = "<group>"; };
 		52BE904A2174887F0056AC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B94178A21763ACC00BC23BD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		9CA1DF41217721B9005FF9F1 /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		52BE90242174887F0056AC24 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				9CA1DF402177216D005FF9F1 /* Learn */,
 				7B94178921763A7D00BC23BD /* Login */,
 				529E3CD62175E8CA003940C9 /* FirstScreen */,
 				529E3CD22175E453003940C9 /* FirstTimeOnly */,
@@ -156,6 +159,14 @@
 				7B94178A21763ACC00BC23BD /* Login.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		9CA1DF402177216D005FF9F1 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				9CA1DF41217721B9005FF9F1 /* Learn.swift */,
+			);
+			path = Learn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 			files = (
 				529E3CD82175E8E8003940C9 /* FirstScreen.swift in Sources */,
 				7B94178B21763ACC00BC23BD /* Login.swift in Sources */,
+				9CA1DF42217721B9005FF9F1 /* Learn.swift in Sources */,
 				52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */,
 				529E3CD42175E4B2003940C9 /* FirstTimeOnly.swift in Sources */,
 				52BE902E2174887F0056AC24 /* Music.xcdatamodeld in Sources */,
