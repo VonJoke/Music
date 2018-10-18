@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class LearnController: UIViewController {
+class Learn: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
