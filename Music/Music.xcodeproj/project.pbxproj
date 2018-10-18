@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49C65E3F217870ED008D4A91 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C65E3E217870ED008D4A91 /* Register.swift */; };
 		529E3CD42175E4B2003940C9 /* FirstTimeOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CD32175E4B2003940C9 /* FirstTimeOnly.swift */; };
 		529E3CD82175E8E8003940C9 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CD72175E8E8003940C9 /* FirstScreen.swift */; };
 		52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE90252174887F0056AC24 /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49C65E3E217870ED008D4A91 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		529E3CD32175E4B2003940C9 /* FirstTimeOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeOnly.swift; sourceTree = "<group>"; };
 		529E3CD72175E8E8003940C9 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		52BE90222174887F0056AC24 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49C65E3D217870CD008D4A91 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				49C65E3E217870ED008D4A91 /* Register.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 		529E3CD22175E453003940C9 /* FirstTimeOnly */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 		52BE90242174887F0056AC24 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				49C65E3D217870CD008D4A91 /* Register */,
 				9CA1DF402177216D005FF9F1 /* Learn */,
 				7B94178921763A7D00BC23BD /* Login */,
 				529E3CD62175E8CA003940C9 /* FirstScreen */,
@@ -304,6 +315,7 @@
 				7B94178B21763ACC00BC23BD /* Login.swift in Sources */,
 				9CA1DF42217721B9005FF9F1 /* Learn.swift in Sources */,
 				52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */,
+				49C65E3F217870ED008D4A91 /* Register.swift in Sources */,
 				529E3CD42175E4B2003940C9 /* FirstTimeOnly.swift in Sources */,
 				52BE902E2174887F0056AC24 /* Music.xcdatamodeld in Sources */,
 			);
