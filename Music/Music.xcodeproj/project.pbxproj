@@ -11,6 +11,7 @@
 		529E3CD42175E4B2003940C9 /* FirstTimeOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CD32175E4B2003940C9 /* FirstTimeOnly.swift */; };
 		529E3CD82175E8E8003940C9 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CD72175E8E8003940C9 /* FirstScreen.swift */; };
 		529E3CDE21787476003940C9 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CDD21787476003940C9 /* Quiz.swift */; };
+		529E3CE121787979003940C9 /* C(Stretched).wav in Resources */ = {isa = PBXBuildFile; fileRef = 529E3CE021787979003940C9 /* C(Stretched).wav */; };
 		52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE90252174887F0056AC24 /* AppDelegate.swift */; };
 		52BE902B2174887F0056AC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE90292174887F0056AC24 /* Main.storyboard */; };
 		52BE902E2174887F0056AC24 /* Music.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BE902C2174887F0056AC24 /* Music.xcdatamodeld */; };
@@ -44,6 +45,7 @@
 		529E3CD32175E4B2003940C9 /* FirstTimeOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeOnly.swift; sourceTree = "<group>"; };
 		529E3CD72175E8E8003940C9 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		529E3CDD21787476003940C9 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		529E3CE021787979003940C9 /* C(Stretched).wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "C(Stretched).wav"; sourceTree = "<group>"; };
 		52BE90222174887F0056AC24 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BE90252174887F0056AC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BE902A2174887F0056AC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 			path = Quiz;
 			sourceTree = "<group>";
 		};
+		529E3CDF2178795D003940C9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				529E3CE021787979003940C9 /* C(Stretched).wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		52BE90192174887F0056AC24 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		52BE90242174887F0056AC24 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				529E3CDF2178795D003940C9 /* Sounds */,
 				529E3CDC2178745C003940C9 /* Quiz */,
 				49C65E3D217870CD008D4A91 /* Register */,
 				9CA1DF402177216D005FF9F1 /* Learn */,
@@ -297,6 +308,7 @@
 			files = (
 				52BE90332174887F0056AC24 /* LaunchScreen.storyboard in Resources */,
 				52BE90302174887F0056AC24 /* Assets.xcassets in Resources */,
+				529E3CE121787979003940C9 /* C(Stretched).wav in Resources */,
 				52BE902B2174887F0056AC24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
