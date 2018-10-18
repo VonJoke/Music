@@ -132,6 +132,21 @@
             </objects>
             <point key="canvasLocation" x="2481" y="856"/>
         </scene>
+        <!--Quiz-->
+        <scene sceneID="shy-Yd-Iml">
+            <objects>
+                <viewController id="IiK-3R-Zgk" userLabel="Quiz" customClass="Quiz" customModule="Music" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UZS-Jf-BXu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4Y1-lo-Xpk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zxs-sN-YNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3220" y="1115"/>
+        </scene>
         <!--FirstScreen-->
         <scene sceneID="MA7-U1-ORN">
             <objects>
@@ -281,7 +296,6 @@
         <!--Register-->
         <scene sceneID="iNb-wY-hVl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OgT-gc-aqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Ec9-9X-G2b" userLabel="Register" customClass="Register" customModule="Music" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RdG-jJ-LXe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -342,6 +356,7 @@
                         <viewLayoutGuide key="safeArea" id="h00-sE-dpu"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OgT-gc-aqL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2481" y="155"/>
         </scene>

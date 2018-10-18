@@ -10,6 +10,7 @@
 		49C65E3F217870ED008D4A91 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C65E3E217870ED008D4A91 /* Register.swift */; };
 		529E3CD42175E4B2003940C9 /* FirstTimeOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CD32175E4B2003940C9 /* FirstTimeOnly.swift */; };
 		529E3CD82175E8E8003940C9 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CD72175E8E8003940C9 /* FirstScreen.swift */; };
+		529E3CDE21787476003940C9 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529E3CDD21787476003940C9 /* Quiz.swift */; };
 		52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE90252174887F0056AC24 /* AppDelegate.swift */; };
 		52BE902B2174887F0056AC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BE90292174887F0056AC24 /* Main.storyboard */; };
 		52BE902E2174887F0056AC24 /* Music.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52BE902C2174887F0056AC24 /* Music.xcdatamodeld */; };
@@ -42,6 +43,7 @@
 		49C65E3E217870ED008D4A91 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		529E3CD32175E4B2003940C9 /* FirstTimeOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTimeOnly.swift; sourceTree = "<group>"; };
 		529E3CD72175E8E8003940C9 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		529E3CDD21787476003940C9 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		52BE90222174887F0056AC24 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BE90252174887F0056AC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BE902A2174887F0056AC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 			path = FirstScreen;
 			sourceTree = "<group>";
 		};
+		529E3CDC2178745C003940C9 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				529E3CDD21787476003940C9 /* Quiz.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
 		52BE90192174887F0056AC24 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +141,7 @@
 		52BE90242174887F0056AC24 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				529E3CDC2178745C003940C9 /* Quiz */,
 				49C65E3D217870CD008D4A91 /* Register */,
 				9CA1DF402177216D005FF9F1 /* Learn */,
 				7B94178921763A7D00BC23BD /* Login */,
@@ -317,6 +328,7 @@
 				52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */,
 				49C65E3F217870ED008D4A91 /* Register.swift in Sources */,
 				529E3CD42175E4B2003940C9 /* FirstTimeOnly.swift in Sources */,
+				529E3CDE21787476003940C9 /* Quiz.swift in Sources */,
 				52BE902E2174887F0056AC24 /* Music.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
