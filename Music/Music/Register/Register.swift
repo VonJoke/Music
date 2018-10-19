@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class Register: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     let pickerInstruments = ["Piano","Violin","Bass","Guitar"]
     
