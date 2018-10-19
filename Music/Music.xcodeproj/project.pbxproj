@@ -22,6 +22,7 @@
 		7B94178B21763ACC00BC23BD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94178A21763ACC00BC23BD /* Login.swift */; };
 		7B94178E2178ACD500BC23BD /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B94178D2178ACD500BC23BD /* Test.swift */; };
 		7B9417922178B82600BC23BD /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9417912178B82600BC23BD /* Practice.swift */; };
+		7BF1C1C72179CDEC001AD971 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1C1C62179CDEC001AD971 /* ResetPassword.swift */; };
 		9CA1DF42217721B9005FF9F1 /* Learn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA1DF41217721B9005FF9F1 /* Learn.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		7B94178A21763ACC00BC23BD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		7B94178D2178ACD500BC23BD /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		7B9417912178B82600BC23BD /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
+		7BF1C1C62179CDEC001AD971 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
 		9CA1DF41217721B9005FF9F1 /* Learn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 		52BE90242174887F0056AC24 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				7BF1C1C52179CC1A001AD971 /* ResetPassword */,
 				7B9417902178B80000BC23BD /* Practice */,
 				7B94178C2178AC9C00BC23BD /* Test */,
 				529E3CDF2178795D003940C9 /* Sounds */,
@@ -164,8 +167,8 @@
 				7B94178921763A7D00BC23BD /* Login */,
 				529E3CD62175E8CA003940C9 /* FirstScreen */,
 				529E3CD22175E453003940C9 /* FirstTimeOnly */,
-				52BE90252174887F0056AC24 /* AppDelegate.swift */,
 				52BE90292174887F0056AC24 /* Main.storyboard */,
+				52BE90252174887F0056AC24 /* AppDelegate.swift */,
 				52BE902F2174887F0056AC24 /* Assets.xcassets */,
 				52BE90312174887F0056AC24 /* LaunchScreen.storyboard */,
 				52BE90342174887F0056AC24 /* Info.plist */,
@@ -214,6 +217,14 @@
 				7B9417912178B82600BC23BD /* Practice.swift */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		7BF1C1C52179CC1A001AD971 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				7BF1C1C62179CDEC001AD971 /* ResetPassword.swift */,
+			);
+			path = ResetPassword;
 			sourceTree = "<group>";
 		};
 		9CA1DF402177216D005FF9F1 /* Learn */ = {
@@ -361,6 +372,7 @@
 				7B94178E2178ACD500BC23BD /* Test.swift in Sources */,
 				9CA1DF42217721B9005FF9F1 /* Learn.swift in Sources */,
 				52BE90262174887F0056AC24 /* AppDelegate.swift in Sources */,
+				7BF1C1C72179CDEC001AD971 /* ResetPassword.swift in Sources */,
 				49C65E3F217870ED008D4A91 /* Register.swift in Sources */,
 				529E3CD42175E4B2003940C9 /* FirstTimeOnly.swift in Sources */,
 				529E3CDE21787476003940C9 /* Quiz.swift in Sources */,
